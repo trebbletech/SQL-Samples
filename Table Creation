@@ -1,0 +1,21 @@
+/** Fiction Book List:
+Little Women (1)
+Inkheart (6)
+The Thief Lord (5)
+Dragon Slippers (7)
+Night Circus (4)
+The Forsyte Saga (3)
+Lovely War (2)
+**/
+
+CREATE TABLE Fiction_Book_List (ID INTEGER PRIMARY KEY, Name TEXT, Rating INTEGER); 
+
+INSERT INTO Fiction_Book_List VALUES (1, "Little Women", 1);
+INSERT INTO Fiction_Book_List VALUES (2, "Inkheart", 6);
+INSERT INTO Fiction_Book_List VALUES (3, "The Thief Lord", 5);
+INSERT INTO Fiction_Book_List VALUES (4, "Dragon Slippers", 7);
+INSERT INTO Fiction_Book_List VALUES (5, "Night Circus", 4);
+INSERT INTO Fiction_Book_List VALUES (6, "The Forsyte Saga", 3);
+INSERT INTO Fiction_Book_List VALUES (7, "Lovely War", 2);
+
+SELECT * FROM Fiction_Book_List;
